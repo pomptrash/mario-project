@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="game-start-screen">
+        <h1 id="game-name">Mario</h1>
+        <button type="button" id="btn-start">start</button>
+    </div>
+
+
+    <div class="countdown-screen">
+        
+    </div>
+
+    <div class="game-board">
+        <div>
+            <h3 class="scoreboard">0</h3>
+        </div>
+
+        <img src="imgs/clouds.png" alt="clouds" class="clouds">
+
+        <img src="imgs/mario.gif" alt="mario" class="mario" id="vivo">
+
+        <img src="imgs/pipe.png" alt="pipe" class="pipe">
+    </div>
+
+    <div class="game-over-screen">
+        <h1>game over</h1>
+        <div class="final-score"></div>
+        <button type="button" id="btn-restart">voltar ao menu</button>
+    </div>
+
+    <div class="recordesContainer">
+        <h2>recordes</h2>
+        <ul>
+            <li><span>posição</span> - <span class="score">pontos</span>
+            </li>
+
+        </ul>
+    </div>
+</body>
+</html>
