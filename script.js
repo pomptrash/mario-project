@@ -72,7 +72,11 @@ function gameInit(){
     
     }, 10)
     
-    document.addEventListener('keydown', jump)
+    document.addEventListener('keypress', function(ev){
+        if (ev.key == ' '){
+            jump()
+        }
+    })
     document.addEventListener('mousedown', jump)
     document.addEventListener('touchstart', jump)
 }
